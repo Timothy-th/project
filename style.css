@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+body {
+  background-image: url(image/abe422716b9d1a03e89c16bfd85958a0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center;
+  background-attachment: fixed; */
+}
+/* 
+for font
+.new-rocker-regular {
+  font-family: "New Rocker", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.covered-by-your-grace-regular {
+  font-family: "Covered By Your Grace", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mansalva-regular {
+  font-family: "Mansalva", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+} */
+
+.iimg1:hover {
+  filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.7));
+}
+
+@keyframes float1 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.iimg2:hover {
+  filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.7));
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.container {
+  position: relative;
+}
+.iimg1 {
+  position: absolute;
+  top: 90px;
+  left: 50px;
+  transition: filter 0.3s ease-in-out;
+  animation: float1 3s ease-in-out infinite;
+}
+.iimg2 {
+  position: absolute;
+  top: 10px;
+  left: 1000px;
+  transition: filter 0.3s ease-in-out;
+  animation: float 3s ease-in-out infinite;
+}
+header h1 {
+  color: #b7c8d0;
+  /* line-height: 40px; */
+  text-shadow: 5px 5px 5px #0a1d20;
+  text-align: center;
+  margin-top: 100px;
+  padding: 30px;
+  font-family: "New Rocker", serif;
+  font-weight: 450;
+  font-style: normal;
+}
+
+.pe:hover {
+  box-shadow: 5px 5px 20px #b7c8d0;
+  color: rgba(147, 6, 46, 1);
+  transition: box-shadow 1s ease-in-out, color 1s ease-in-out;
+}
+
+.pe {
+  text-decoration: none;
+  font-size: 20px;
+  color: #b7c8d0;
+  text-shadow: 2px 2px 2px #041335;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 3px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: dashed #b7c8d0;
+
+  font-family: "Mansalva", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.h2 {
+  color: #b30d3c;
+  border: 2px dashed #b7c8d0;
+  line-height: 50px;
+  text-align: center;
+  margin: 30px auto;
+  width: 600px;
+
+  font-family: "New Rocker", serif;
+  font-weight: 450;
+  font-style: normal;
+}
+.hp {
+  color: #59b6f0;
+  text-align: center;
+  line-height: 10px;
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px auto;
+  text-shadow: 2px 2px 2px #041335;
+
+  font-family: "Covered By Your Grace", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* nav */
+
+#nav {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+
+  font-family: "Mansalva", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.na:hover {
+  box-shadow: 5px 5px 20px #b7c8d0;
+  color: rgba(147, 6, 46, 1);
+  transition: box-shadow 1s ease-in-out, color 1s ease-in-out;
+}
+.na {
+  border: dashed #b7c8d0;
+  display: inline-block;
+  color: #b7c8d0;
+  text-decoration: none;
+  padding: 20px 30px;
+  width: 150px;
+  margin: 0 15px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+/* div3 */
+
+.d3 {
+  color: #b30d3c;
+  text-shadow: 2px 2px 2px #30454a;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0px;
+
+  font-family: "New Rocker", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.d3p {
+  color: #59b6f0;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px #041335;
+  line-height: 30px;
+  padding: 5px;
+  margin: 10px auto;
+
+  font-family: "Covered By Your Grace", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* card */
+
+.card {
+  position: relative;
+}
+.main-cd {
+  padding: 50px;
+  margin: 0 300px;
+  display: flex;
+}
+
+.cd {
+  height: 400px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
+.img {
+  height: 400px;
+  max-width: 100%;
+  border-radius: 5px;
+  border: 10px groove #30454a;
+  border-right-color: #142d31;
+  border-bottom-color: #0a1d20;
+  background-color: rgba(11, 13, 16, 0.7);
+  margin: 10px;
+  transition: transform 1s ease-in-out;
+}
+.hunter-p {
+  position: absolute;
+  top: 80px;
+  font-size: 40px;
+  text-decoration: none;
+  color: #b30d3c;
+  left: 330px;
+  text-shadow: 5px 5px 2px #30454a;
+  z-index: 1000;
+  animation: float 3s ease-in-out infinite;
+
+  font-family: "New Rocker", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sur-p {
+  position: absolute;
+  bottom: 45px;
+  font-size: 40px;
+  text-decoration: none;
+  color: #b7c8d0;
+  right: 330px;
+  text-shadow: 5px 5px 2px #30454a;
+  z-index: 999;
+  animation: float 3s ease-in-out infinite;
+
+  font-family: "New Rocker", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fp {
+  color: #59b6f0;
+  text-align: center;
+  line-height: 20px;
+  margin: 20px auto;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px #041335;
+
+  font-family: "Covered By Your Grace", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ff1 {
+  color: #b30d3c;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #041335;
+
+  font-family: "New Rocker", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ff {
+  color: #b30d3c;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #041335;
+
+  font-family: "New Rocker", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ff2 {
+  text-align: center;
+  font-size: 14px;
+  color: #59b6f0;
+  padding: 10px;
+  text-shadow: 2px 2px 2px #041335;
+
+  font-family: "Covered By Your Grace", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.i {
+  color: #b30d3c;
+  font-size: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* contact */
+
+.c-img {
+  height: 100px;
+}

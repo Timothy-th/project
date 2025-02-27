@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Characters</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Mansalva&family=New+Rocker&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="charactor.css" />
+
+    <style>
+      .bg-nav {
+        background-color: rgba(26, 36, 63, 0.5);
+      }
+      .active {
+        border-bottom: 2px solid #f2d16b;
+      }
+      a {
+        color: #f2d16b !important;
+      }
+
+      .btn-outline-success {
+        --bs-btn-color: #650f0f !important;
+        --bs-btn-border-color: #650f0f !important;
+        --bs-btn-hover-color: #fff !important;
+        --bs-btn-hover-bg: #650f0f !important;
+        --bs-btn-hover-border-color: #650f0f !important;
+        --bs-btn-focus-shadow-rgb: 101, 15, 15 !important;
+        --bs-btn-active-color: #fff !important;
+        --bs-btn-active-bg: #650f0f !important;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-nav">
+      <div class="container-fluid">
+        <!-- logo -->
+        <a class="navbar-brand" href="index.html" target="_blank"
+          ><img src="image/loogo.jpg" alt="Identity V " height="40px"
+        /></a>
+
+        <!-- button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- link with button -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Guide.html">Guide</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="charactor.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Characters
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="page3.html">Survivor</a></li>
+                <li>
+                  <a class="dropdown-item" href="charactor.html">Hunter</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="basic-addon2"
+              />
+              <button class="btn btn-outline-success">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- card -->
+    <div class="card-m"></div>
+    <h1 class="c-m">"Echoes of the Manor"</h1>
+    <h2 class="c-mm">Survivors</h2>
+
+    <div
+      class="container d-flex flex-row align-items-center justify-content-center gap-4"
+    >
+      <div id="accordion12" class="d-flex flex-row flex-nowrap gap-4">
+        <!-- Card 1:Emil Patient -->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/pat-removebg-preview.png"
+            class="card-img-top c-img"
+            alt=" Patient "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Emil <br />( Patient)</h5>
+            <p class="card-text">
+              "Perfection is pain… and I sculpt only the finest forms."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsespat"
+              role="button"
+              >Backstory</a
+            >
+            <div
+              class="collapse mt-3"
+              id="collapsepat"
+              data-bs-parent="#accordion12"
+            >
+              <div class="card card-body">
+                Once a prodigy in the world of sculpture, Galatea’s hands
+                breathed life into cold marble, crafting masterpieces that
+                captivated all. But when tragedy struck, her own body was left
+                broken, her dreams shattered alongside it. Desperate to reclaim
+                her lost artistry, she turned to a new medium—one that screamed,
+                bled, and begged for mercy. Now, as a hunter of the Manor, she
+                carves beauty from agony, her statues eternal reminders of
+                suffering.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Ada Mesmer Psychologist -->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/psy-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Psychologist"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ada Mesmer <br />( Psychologist)</h5>
+            <p class="card-text">"No escape… only the turning of the wheel."</p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsepsy"
+              role="button"
+              >Backstory</a
+            >
+            <div
+              class="collapse mt-3"
+              id="collapsepsy"
+              data-bs-parent="#accordion12"
+            >
+              <div class="card card-body">
+                Once enforcers of brutal justice, the triplets who became The
+                Breaking Wheel thrived in the art of punishment. Bound together
+                by fate and cruelty, their executioner's wheel crushed both
+                bones and spirits alike. When their reign of terror ended in
+                betrayal, they were left to rot, forgotten by the world they
+                once ruled. Now, as hunters of the Manor, they continue their
+                twisted duty, ensuring that none escape the relentless cycle of
+                suffering.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3:Orpheus Novelist -->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/nov-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Kreacher Pierson Thief"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Orpheus <br />( Novelist)</h5>
+            <p class="card-text">
+              "The waters whisper… and none can escape their embrace."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsenov"
+              role="button"
+              >Backstory</a
+            >
+            <div
+              class="collapse mt-3"
+              id="collapsenov"
+              data-bs-parent="#accordion12"
+            >
+              <div class="card card-body">
+                Once a graceful swimmer, Grace's life was devoted to the sea,
+                her movements fluid as the waves themselves. But when betrayal
+                drowned her in sorrow, the waters answered her grief, pulling
+                her into their cold, eternal depths. Now, as a hunter of the
+                Manor, she glides through the battlefield like a phantom, her
+                aquatic embrace dragging victims into a fate as inescapable as
+                the tides.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4:Little Girl Journalist-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/Untitled_Project__1_-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="	Alice DeRoss  Journalist"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Little Girl-Alice DeRoss <br />( Journalist)
+            </h5>
+            <p class="card-text">
+              "Perfection is eternal… let me preserve you forever."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapselit"
+              role="button"
+              >Backstory</a
+            >
+            <div
+              class="collapse mt-3"
+              id="collapselit"
+              data-bs-parent="#accordion12"
+            >
+              <div class="card card-body">
+                Once a renowned sculptor, Philippe turned to wax to capture
+                fleeting beauty, believing only his art could defy time. But
+                when his obsession grew, so did his desire to preserve not just
+                art—but life itself. Now, as a hunter of the Manor, he seals his
+                victims in molten wax, ensuring their beauty lasts for eternity,
+                frozen in a moment of terror.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container d-flex flex-row align-items-center justify-content-center gap-4"
+    >
+      <div id="accordion13" class="d-flex flex-row flex-nowrap gap-4">
+        <!-- Card 5:Joker Weeping Clown-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/web-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="  Weeping Clown"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Joker<br />( Weeping Clown)</h5>
+            <p class="card-text">
+              "The night never ends… and neither does your fear."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapseweep"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapseweep"
+              data-bs-parent="#accordion13"
+            >
+              <div class="card card-body">
+                Once a circus performer, Violetta’s dream of dazzling crowds was
+                crushed by betrayal. Left broken and abandoned, she embraced the
+                body of a spider, weaving a web of vengeance. Now, at Oletus
+                Manor, she hunts with deadly grace, trapping victims in a dance
+                they can never escape.Once a humble postman, Orpheus delivered
+                messages between the living and the dead, unknowingly inviting
+                the darkness into his soul. The whispers of forgotten nightmares
+                consumed him, reshaping his body into a monstrous form. Now, as
+                a hunter of the Manor, he soars through the endless night,
+                ensuring no one escapes the horrors that lurk in the shadows.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5:	Luchino Diruse Professor-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/professor-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="	Naib Subedar Mercenary"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Luchino Diruse <br />( Professor)</h5>
+            <p class="card-text">
+              "The night never ends… and neither does your fear."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapseprofe"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapseprofe"
+              data-bs-parent="#accordion13"
+            >
+              <div class="card card-body">
+                Once a circus performer, Violetta’s dream of dazzling crowds was
+                crushed by betrayal. Left broken and abandoned, she embraced the
+                body of a spider, weaving a web of vengeance. Now, at Oletus
+                Manor, she hunts with deadly grace, trapping victims in a dance
+                they can never escape.Once a humble postman, Orpheus delivered
+                messages between the living and the dead, unknowingly inviting
+                the darkness into his soul. The whispers of forgotten nightmares
+                consumed him, reshaping his body into a monstrous form. Now, as
+                a hunter of the Manor, he soars through the endless night,
+                ensuring no one escapes the horrors that lurk in the shadows.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5:	Qi Shiyi Antiquarian-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/anti-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Antiquarian"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Qi Shiyi<br />( Antiquarian)</h5>
+            <p class="card-text">
+              "The night never ends… and neither does your fear."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapseanti"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapseanti"
+              data-bs-parent="#accordion13"
+            >
+              <div class="card card-body">
+                Once a circus performer, Violetta’s dream of dazzling crowds was
+                crushed by betrayal. Left broken and abandoned, she embraced the
+                body of a spider, weaving a web of vengeance. Now, at Oletus
+                Manor, she hunts with deadly grace, trapping victims in a dance
+                they can never escape.Once a humble postman, Orpheus delivered
+                messages between the living and the dead, unknowingly inviting
+                the darkness into his soul. The whispers of forgotten nightmares
+                consumed him, reshaping his body into a monstrous form. Now, as
+                a hunter of the Manor, he soars through the endless night,
+                ensuring no one escapes the horrors that lurk in the shadows.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5:Frederick Kreiburg Composer-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/com-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Frederick Kreiburg Composer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Frederick Kreiburg
+              <br />(Composer)
+            </h5>
+            <p class="card-text">
+              "The night never ends… and neither does your fear."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsecom"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapsecom"
+              data-bs-parent="#accordion13"
+            >
+              <div class="card card-body">
+                Once a circus performer, Violetta’s dream of dazzling crowds was
+                crushed by betrayal. Left broken and abandoned, she embraced the
+                body of a spider, weaving a web of vengeance. Now, at Oletus
+                Manor, she hunts with deadly grace, trapping victims in a dance
+                they can never escape.Once a humble postman, Orpheus delivered
+                messages between the living and the dead, unknowingly inviting
+                the darkness into his soul. The whispers of forgotten nightmares
+                consumed him, reshaping his body into a monstrous form. Now, as
+                a hunter of the Manor, he soars through the endless night,
+                ensuring no one escapes the horrors that lurk in the shadows.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container d-flex flex-row align-items-center justify-content-center gap-4"
+    >
+      <div id="accordion14" class="d-flex flex-row flex-nowrap gap-4">
+        <!-- Card 5:Richard Sterling Knight-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/kni-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Knight"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Richard Sterling
+              <br />( Knight)
+            </h5>
+            <p class="card-text">
+              "The night never ends… and neither does your fear."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsekni"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapsekni"
+              data-bs-parent="#accordion14"
+            >
+              <div class="card card-body">
+                Once a circus performer, Violetta’s dream of dazzling crowds was
+                crushed by betrayal. Left broken and abandoned, she embraced the
+                body of a spider, weaving a web of vengeance. Now, at Oletus
+                Manor, she hunts with deadly grace, trapping victims in a dance
+                they can never escape.Once a humble postman, Orpheus delivered
+                messages between the living and the dead, unknowingly inviting
+                the darkness into his soul. The whispers of forgotten nightmares
+                consumed him, reshaping his body into a monstrous form. Now, as
+                a hunter of the Manor, he soars through the endless night,
+                ensuring no one escapes the horrors that lurk in the shadows.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5:	Matthias Czernin Puppeteer-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/pupp-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="   Matthias Czernin Puppeteer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Matthias Czernin <br />( Puppeteer)</h5>
+            <p class="card-text">
+              "The night never ends… and neither does your fear."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsepupp"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapsepupp"
+              data-bs-parent="#accordion14"
+            >
+              <div class="card card-body">
+                Once a circus performer, Violetta’s dream of dazzling crowds was
+                crushed by betrayal. Left broken and abandoned, she embraced the
+                body of a spider, weaving a web of vengeance. Now, at Oletus
+                Manor, she hunts with deadly grace, trapping victims in a dance
+                they can never escape.Once a humble postman, Orpheus delivered
+                messages between the living and the dead, unknowingly inviting
+                the darkness into his soul. The whispers of forgotten nightmares
+                consumed him, reshaping his body into a monstrous form. Now, as
+                a hunter of the Manor, he soars through the endless night,
+                ensuring no one escapes the horrors that lurk in the shadows.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5:Andrew Kreiss Grave Keeper-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/gra-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Andrew Kreiss Grave Keeper"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Andrew Kreiss<br />( Grave Keeper)</h5>
+            <p class="card-text">
+              "The night never ends… and neither does your fear."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsegra"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapsegra"
+              data-bs-parent="#accordion14"
+            >
+              <div class="card card-body">
+                Once a circus performer, Violetta’s dream of dazzling crowds was
+                crushed by betrayal. Left broken and abandoned, she embraced the
+                body of a spider, weaving a web of vengeance. Now, at Oletus
+                Manor, she hunts with deadly grace, trapping victims in a dance
+                they can never escape.Once a humble postman, Orpheus delivered
+                messages between the living and the dead, unknowingly inviting
+                the darkness into his soul. The whispers of forgotten nightmares
+                consumed him, reshaping his body into a monstrous form. Now, as
+                a hunter of the Manor, he soars through the endless night,
+                ensuring no one escapes the horrors that lurk in the shadows.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5:Victor Grantz Postman-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/post-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Victor Grantz Postman"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Victor Grantz<br />( Postman)</h5>
+            <p class="card-text">
+              "The night never ends… and neither does your fear."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsepost"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapsepost"
+              data-bs-parent="#accordion14"
+            >
+              <div class="card card-body">
+                Once a circus performer, Violetta’s dream of dazzling crowds was
+                crushed by betrayal. Left broken and abandoned, she embraced the
+                body of a spider, weaving a web of vengeance. Now, at Oletus
+                Manor, she hunts with deadly grace, trapping victims in a dance
+                they can never escape.Once a humble postman, Orpheus delivered
+                messages between the living and the dead, unknowingly inviting
+                the darkness into his soul. The whispers of forgotten nightmares
+                consumed him, reshaping his body into a monstrous form. Now, as
+                a hunter of the Manor, he soars through the endless night,
+                ensuring no one escapes the horrors that lurk in the shadows.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="page3.html">Previous</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="page3.html">3</a>
+        </li>
+        <li class="page-item active">
+          <a class="page-link" href="page4.html">4</a>
+        </li>
+        <li class="page-item disabled">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Characters</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Mansalva&family=New+Rocker&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="charactor.css" />
+
+    <style>
+      .bg-nav {
+        background-color: rgba(26, 36, 63, 0.5);
+      }
+      .active {
+        border-bottom: 2px solid #f2d16b;
+      }
+      a {
+        color: #f2d16b !important;
+      }
+
+      .btn-outline-success {
+        --bs-btn-color: #650f0f !important;
+        --bs-btn-border-color: #650f0f !important;
+        --bs-btn-hover-color: #fff !important;
+        --bs-btn-hover-bg: #650f0f !important;
+        --bs-btn-hover-border-color: #650f0f !important;
+        --bs-btn-focus-shadow-rgb: 101, 15, 15 !important;
+        --bs-btn-active-color: #fff !important;
+        --bs-btn-active-bg: #650f0f !important;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-nav">
+      <div class="container-fluid">
+        <!-- logo -->
+        <a class="navbar-brand" href="index.html" target="_blank"
+          ><img src="image/loogo.jpg" alt="Identity V " height="40px"
+        /></a>
+
+        <!-- button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- link with button -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Guide.html">Guide</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="charactor.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Characters
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="page3.html">Survivor</a></li>
+                <li>
+                  <a class="dropdown-item" href="charactor.html">Hunter</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="basic-addon2"
+              />
+              <button class="btn btn-outline-success">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- card -->
+    <div class="card-m"></div>
+    <h1 class="c-m">"Echoes of the Manor"</h1>
+    <h2 class="c-mm">Survivors</h2>
+
+    <div
+      class="container d-flex flex-row align-items-center justify-content-center gap-4"
+    >
+      <div id="accordion8" class="d-flex flex-row flex-nowrap gap-4">
+        <!-- Card 1:Emily Dyer Doctor -->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/doctor.png"
+            class="card-img-top c-img"
+            alt="Emily Dyer Doctor "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Emily Dyer <br />( Doctor)</h5>
+            <p class="card-text">
+              "Don’t be afraid… I’ll do everything I can to save you."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsesdoc"
+              role="button"
+              >Backstory</a
+            >
+            <div
+              class="collapse mt-3"
+              id="collapsesdoc"
+              data-bs-parent="#accordion8"
+            >
+              <div class="card card-body">
+                Once a skilled physician, Emily Dyer dedicated her life to
+                healing the sick and wounded. With a steady hand and a kind
+                heart, she treated countless patients, earning their trust and
+                admiration. However, whispers of her true identity began to
+                spread—Emily was not a licensed doctor but a self-taught healer
+                with a mysterious past. Fleeing from those who sought to expose
+                her, she found herself at Oletus Manor, where her medical skills
+                became both a blessing and a curse in the endless game of
+                survival.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Freddy Riley Lawyer -->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/lawyer-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Freddy Riley Lawyer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Freddy Riley<br />( Lawyer)</h5>
+            <p class="card-text">
+              "The law is on my side… or at least, it used to be."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapselaw"
+              role="button"
+              >Backstory</a
+            >
+            <div
+              class="collapse mt-3"
+              id="collapselaw"
+              data-bs-parent="#accordion8"
+            >
+              <div class="card card-body">
+                Once an ambitious lawyer, Freddy Riley built his career on sharp
+                arguments and well-crafted lies. He had a talent for twisting
+                the truth, ensuring his clients walked free—no matter their
+                crimes. But when he defended the wrong person, a powerful enemy
+                turned the tables, leaving him disgraced and hunted. Seeking
+                refuge, he arrived at Oletus Manor, hoping to escape his past.
+                Yet in a place where rules mean nothing, even the best defense
+                may not be enough to save him.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3:Kreacher Pierson Thief -->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/thief-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Kreacher Pierson Thief"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Kreacher Pierson<br />( Thief )</h5>
+            <p class="card-text">
+              "Quick hands, quicker feet… that’s how you survive."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsethi"
+              role="button"
+              >Backstory</a
+            >
+            <div
+              class="collapse mt-3"
+              id="collapsethi"
+              data-bs-parent="#accordion8"
+            >
+              <div class="card card-body">
+                Once a streetwise pickpocket, Kreacher Pierson made a living
+                slipping through crowds and vanishing without a trace. He never
+                stole for greed—only enough to get by. But one night, his luck
+                ran out. Caught in the act, he was given a choice: face the
+                authorities or take a mysterious invitation to Oletus Manor.
+                Believing he could outsmart whatever lay ahead, he chose the
+                latter. Now, in a place where danger lurks at every turn, his
+                skills may be the only thing keeping him one step ahead of fate.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4:Emma Woods Gardener-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/gar.png"
+            class="card-img-top c-img"
+            alt="Emma Woods Gardener"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Emma Woods <br />( Gardener)</h5>
+            <p class="card-text">
+              "A flower cannot bloom in chains… but will it wilt searching for
+              the past?"
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsegar"
+              role="button"
+              >Backstory</a
+            >
+            <div
+              class="collapse mt-3"
+              id="collapsegar"
+              data-bs-parent="#accordion8"
+            >
+              <div class="card card-body">
+                Once a sheltered girl raised under strict discipline, Emma Woods
+                spent her childhood longing for warmth from her father, a
+                gardener who mysteriously vanished one day. Left with only
+                memories and unanswered questions, she set out to find him,
+                following the faintest traces of his past. Her search led her to
+                Oletus Manor, a place where lost souls gather and secrets remain
+                buried. Now, as she tends to the overgrown gardens of the
+                estate, she wonders—will she find the answers she seeks, or has
+                she only dug her own grave?
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container d-flex flex-row align-items-center justify-content-center gap-4"
+    >
+      <div id="accordion9" class="d-flex flex-row flex-nowrap gap-4">
+        <!-- Card 5:Lucky Guy Deduction Substitute-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/luck.png"
+            class="card-img-top c-img"
+            alt="Lucky Guy Deduction Substitute"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Lucky Guy
+              <br />( Deduction Substitute)
+            </h5>
+            <p class="card-text">
+              "Luck has always been on my side… or maybe I just know how to
+              survive."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapseluck"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapseluck"
+              data-bs-parent="#accordion9"
+            >
+              <div class="card card-body">
+                A man of unknown origins, nobody knows where Lucky Guy came from
+                or how he ended up at Oletus Manor. With no remarkable skills,
+                no grand past, and no connections, he was always overlooked.
+                Yet, against all odds, he manages to escape dire situations
+                unscathed time and time again. Some believe he is simply lucky,
+                while others suspect there is more to his survival than mere
+                chance. Whether fate or fortune, one thing is certain—he refuses
+                to go down without a fight.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5:	Naib Subedar Mercenary-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/Mercenary-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="	Naib Subedar Mercenary"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Naib Subedar
+              <br />( Mercenary)
+            </h5>
+            <p class="card-text">
+              "A debt must always be repaid... one way or another."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsemer"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapsemer"
+              data-bs-parent="#accordion9"
+            >
+              <div class="card card-body">
+                Once a soldier trained in covert operations, Naib Subedar lived
+                by discipline and duty. However, when a mission went awry, he
+                was abandoned by his superiors, left to fend for himself in
+                enemy territory. Betrayed and disillusioned, he deserted the
+                battlefield, offering his skills to the highest bidder. Though
+                he now fights only for his own survival, the weight of past
+                loyalties still lingers. Drawn to Oletus Manor by a letter
+                promising answers, he soon realizes that some debts can never
+                truly be repaid.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5:Helena Adams The Mind's Eye-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/The_Mind_s_Eye-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Helena Adams The Mind's Eye"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Helena Adams
+              <br />( The Mind's Eye)
+            </h5>
+            <p class="card-text">"Even in darkness, I see more than most."</p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsemeye"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapsemeye"
+              data-bs-parent="#accordion9"
+            >
+              <div class="card card-body">
+                Once a blind girl shunned by society, Helena Adams possessed an
+                uncanny ability to perceive the world beyond sight. Raised in an
+                orphanage, she relied on her heightened senses to navigate life,
+                but whispers of her strange abilities spread. When a mysterious
+                letter invited her to Oletus Manor, she accepted, believing it
+                to be a chance to prove herself. Now, in the deadly game of
+                survival, her gift may be the key to escaping—or the reason she
+                never leaves.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5:Margaretha Zelle Female Dancer-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/Female_Dancer-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Margaretha Zelle Female Dancer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Margaretha Zelle
+              <br />( Female Dancer)
+            </h5>
+            <p class="card-text">
+              "Watch closely… the final act is always the most dazzling."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsefd"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapsefd"
+              data-bs-parent="#accordion9"
+            >
+              <div class="card card-body">
+                Once a dazzling star of the circus, Margaretha Zelle captivated
+                audiences with her graceful performances. Behind her charming
+                smile, however, lay ambition and resentment. She despised Joker,
+                the clown who stole the spotlight, and sought to have him
+                removed. In a calculated move, she tampered with his
+                performance, causing a catastrophic accident that left him
+                disfigured and cast out. Though she continued to dance, guilt
+                and fear crept into her perfect routine. When rumors of her
+                betrayal spread, she vanished into the night, eventually
+                arriving at Oletus Manor—where the past is never truly buried,
+                and the dance never ends.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container d-flex flex-row align-items-center justify-content-center gap-4"
+    >
+      <div id="accordion10" class="d-flex flex-row flex-nowrap gap-4">
+        <!-- Card 5:Eli Clark Seer-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/Seer-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Eli Clark Seer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Eli Clark
+              <br />( Seer)
+            </h5>
+            <p class="card-text">
+              "The future is never set in stone… but the price of foresight is
+              steep."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapseseer"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapseseer"
+              data-bs-parent="#accordion10"
+            >
+              <div class="card card-body">
+                Once a revered oracle, Eli Clark possessed an uncanny ability to
+                glimpse into the future through his bond with his owl. His
+                visions brought him both admiration and fear—those who sought
+                knowledge came to him, but others believed his foresight was
+                unnatural. When a prediction led to the downfall of a powerful
+                figure, Eli became a target of persecution. Forced to flee, he
+                found refuge in Oletus Manor, where his gift became both a
+                blessing and a burden in the endless struggle for survival.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5:	Norton Campbell Prospector-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/Runway_2025-02-14T11_22_09.822Z_Expand_Image-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="    Prospector"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Norton Campbell<br />( Prospector)</h5>
+            <p class="card-text">
+              "The pull of fate is stronger than any magnet."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsepro"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapsepro"
+              data-bs-parent="#accordion10"
+            >
+              <div class="card card-body">
+                Once a devoted miner, Norton Campbell toiled deep underground,
+                seeking fortune in the heart of the earth. But one fateful day,
+                an explosion rocked the tunnels, leaving his crew buried beneath
+                the rubble—only Norton emerged unscathed. Accusations of
+                sabotage followed him, whispers claiming he had set the blast
+                himself to claim the treasure for his own. Hunted by guilt and
+                suspicion, he wandered until he reached Oletus Manor, where the
+                weight of his past clung to him like iron to a magnet.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5:Patricia Dorval Enchantress-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/Enchantress-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Patricia Dorval Enchantress"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Patricia Dorval
+              <br />( TEnchantress)
+            </h5>
+            <p class="card-text">
+              "Fate’s design is ever-changing… just like my tricks."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapseench"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapseench"
+              data-bs-parent="#accordion10"
+            >
+              <div class="card card-body">
+                Once a traveling magician, Morgana sought to master the art of
+                illusion, captivating audiences with mesmerizing performances.
+                However, her talent for deception extended beyond the stage.
+                Using her charms and sleight of hand, she swindled wealthy
+                patrons out of their fortunes, vanishing before they could
+                uncover the truth. Eventually, her luck ran out, and those she
+                had wronged pursued her relentlessly. Seeking refuge, she
+                arrived at Oletus Manor, where her illusions became more than
+                just tricks—now, they were a means of survival.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5:Mike Morton Acrobat-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/Acrobat-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Mike Morton Acrobat"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Mike Morton<br />( Acrobat)</h5>
+            <p class="card-text">
+              "The show must go on… even if it’s my last act."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapseaco"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapseaco"
+              data-bs-parent="#accordion10"
+            >
+              <div class="card card-body">
+                Once a celebrated circus performer, Mike Morton dazzled
+                audiences with his daring stunts and fearless tricks. But his
+                ambition led him to push beyond his limits, attempting a
+                dangerous act that ended in disaster. His closest friend, Joker,
+                was left permanently disfigured, and the blame fell on Mike.
+                Overcome with guilt and shunned by the circus, he vanished into
+                obscurity. Now at Oletus Manor, he leaps and tumbles through
+                danger, still trying to outrun the past that haunts him.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container d-flex flex-row align-items-center justify-content-center gap-4"
+    >
+      <div id="accordion11" class="d-flex flex-row flex-nowrap gap-4">
+        <!-- Card 5:Jose Baden First Officer-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/First_Officer-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="First Officer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Jose Baden<br />(First Officer)</h5>
+            <p class="card-text">
+              "Discipline and duty… even in the face of the unknown."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsefoff"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapsefoff"
+              data-bs-parent="#accordion11"
+            >
+              <div class="card card-body">
+                Once a decorated naval officer, José Baden had spent years
+                enforcing order on the seas with unwavering discipline. But when
+                a tragic accident during a voyage led to the loss of his crew,
+                whispers of negligence and betrayal spread. Stripped of his
+                title, he wandered in search of redemption, until fate led him
+                to Oletus Manor. Now, in this twisted game, he clings to his
+                sense of duty, hoping to prove his worth once more.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5:	Luca Balsa Prisoner"-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/Prisoner-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Prisoner"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Luca Balsa <br />(Prisoner)</h5>
+            <p class="card-text">
+              "Even in darkness, the spark of hope never fades."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapsepri"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapsepri"
+              data-bs-parent="#accordion11"
+            >
+              <div class="card card-body">
+                Once a brilliant electrician, Luca Balsa’s mind crackled with
+                ingenuity, but his experiments often defied ethical boundaries.
+                His obsession with harnessing electricity led to an "accident"
+                that cost his mentor's life, though whether it was truly
+                accidental remains a mystery. Branded a murderer, he was
+                sentenced to prison, where he continued his research in secret.
+                When the opportunity arose, he escaped—only to find himself at
+                Oletus Manor, where his talents would be tested in a far
+                deadlier game.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5:Melly Plinius Entomologist-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/ento-removebg-preview.png"
+            class="card-img-top c-img"
+            alt="Patricia Dorval Enchantress"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Melly Plinius
+              <br />( Entomologist)
+            </h5>
+            <p class="card-text">
+              "Even the smallest creatures can change the course of fate."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapseento"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapseento"
+              data-bs-parent="#accordion11"
+            >
+              <div class="card card-body">
+                Once a brilliant entomologist, Melly Plinius was admired for her
+                research on insects and their behavior. However, behind her
+                gentle demeanor lay a darker truth. Trapped in a suffocating
+                marriage, she saw no escape—until she devised a chilling
+                solution. One night, her husband was found lifeless, his body
+                covered in venomous insect bites. Though no evidence could
+                directly incriminate her, the whispers never ceased. With her
+                reputation in ruins and suspicion growing, Melly vanished into
+                the shadows. Now at Oletus Manor, she wields her knowledge as
+                both a shield and a silent, crawling terror.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5:Anne Lester Toy Merchant-->
+        <div class="card cards" style="width: 18rem">
+          <img
+            src="image/freepik_br_3666bde1-af8b-4b52-a16b-ece19541f471.png"
+            class="card-img-top c-img"
+            alt="Toy Merchant"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Anne Lester <br />(Toy Merchant)</h5>
+            <p class="card-text">
+              "Every toy has a story… and some secrets are best left
+              undiscovered."
+            </p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapseatoy"
+              role="button"
+            >
+              Backstory
+            </a>
+            <div
+              class="collapse mt-3"
+              id="collapseatoy"
+              data-bs-parent="#accordion11"
+            >
+              <div class="card card-body">
+                Once a gifted toymaker, Anne Lester’s creations brought joy to
+                children, but they also carried hidden messages for those in
+                need. Her secret work aiding fugitives drew the attention of
+                dangerous individuals, forcing her to flee after a delivery went
+                wrong. Seeking refuge, she arrived at Oletus Manor, where her
+                toys are no longer just for play—they are tools for survival in
+                a game she never intended to join.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="page2.html">Previous</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="page2.html">2</a>
+        </li>
+        <li class="page-item active">
+          <a class="page-link" href="page3.html">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="page4.html">4</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="page4.html">Next</a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
