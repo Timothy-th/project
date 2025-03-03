@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+body {
+  background-color: #070e21;
+  color: #b7c8d0;
+}
+
+.s-img {
+  background-image: url(image/gameplay.jpg);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 490px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  display: block;
+}
+
+.h-h1 {
+  padding-top: 80px;
+  text-align: center;
+  color: #9b2e36;
+  text-shadow: 2px 2px 2px #041335;
+  font-family: "New Rocker", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.h-h2 {
+  padding-top: 20px;
+  text-align: center;
+  color: #9b2e36;
+  text-shadow: 2px 2px 2px #041335;
+  font-family: "New Rocker", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.h-h1,
+.h-h2,
+.h-p {
+  animation: float 2s infinite 1s;
+}
+
+.h-p {
+  text-align: center;
+  color: #59b6f0;
+  text-shadow: 2px 2px 2px #041335;
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+#m-section {
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.dash {
+  border-top: #b7c8d0 5px dashed;
+}
+.s-imge:hover,
+.img2:hover,
+.s-img3:hover,
+.s-img4:hover,
+.h-img:hover,
+.h-img2:hover,
+.h-img3:hover,
+.g-img:hover,
+.g-h-img:hover,
+.g-s-img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.7));
+}
+
+.s-imge,
+.img2,
+.s-img3,
+.s-img4,
+.h-img,
+.h-img2,
+.h-img3,
+.g-img,
+.g-h-img,
+.g-s-img {
+  transition: transform 1s ease-in-out, filter 1s ease-in-out;
+}
+
+.s-game,
+.s-game3,
+.h-game,
+.h-game3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+.s-h2 {
+  padding-top: 10px;
+}
+.s-imge,
+.h-img,
+.h-img3 {
+  height: 300px;
+  float: right;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+
+.s-gameh,
+.h-2-h {
+  margin-left: 700px;
+}
+
+.img2,
+.h-img2 {
+  height: 300px;
+  float: left;
+  margin-left: 60px;
+}
+
+.s-game3,
+.s-game4,
+.s-game2 {
+  margin-top: 50px;
+}
+.s-img3 {
+  height: 300px;
+  float: right;
+  margin-right: 60px;
+}
+
+.s-game4 {
+  height: 250px;
+}
+.h-4-p {
+  padding: 50px;
+  margin-left: 500px;
+}
+.s-img4 {
+  height: 200px;
+  float: left;
+  margin-left: 100px;
+}
+
+.h-game {
+  margin-top: 30px;
+}
+
+.h-game3 {
+  height: 350px;
+  margin-bottom: 30px;
+}
+
+.gameplay {
+  margin-right: 150px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.g-img {
+  float: left;
+  margin-left: 150px;
+  height: 200px;
+  margin-top: 10px;
+}
+.g-h-p {
+  padding-top: 25px;
+  margin-left: 650px;
+}
+
+.tnt {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.g-h-img {
+  height: 200px;
+  float: right;
+  margin-right: 180px;
+}
+.tnt-s {
+  padding-top: 30px;
+  margin-left: 150px;
+}
+.g-s-img {
+  height: 200px;
+  float: left;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.tnt-h {
+  margin-top: 100px;
+  margin-left: 600px;
+}
+.g-p {
+  margin-top: 50px;
+  text-align: center;
+}
+footer {
+  color: #59b6f0;
+  text-align: center;
+  text-shadow: 2px 2px 2px #041335;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.ff2 {
+  text-align: center;
+  font-size: 14px;
+  color: #59b6f0;
+  padding: 10px;
+  text-shadow: 2px 2px 2px #041335;
+}
+.i {
+  color: #b30d3c;
+  font-size: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  position: relative;
+  float: right;
+}
+.dash- {
+  border-top: #b7c8d0 5px dashed;
+  margin-bottom: 30px;
+}

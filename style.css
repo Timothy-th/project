@@ -71,6 +71,12 @@ for font
   }
 }
 
+/* #fi {
+  text-align: center;
+  font-family: "Gothic", serif;
+  color: white;
+} */
+
 .container {
   position: relative;
 }
@@ -88,6 +94,18 @@ for font
   transition: filter 0.3s ease-in-out;
   animation: float 3s ease-in-out infinite;
 }
+
+.animate__animated {
+  display: inline-block;
+}
+.animate__animated.animate__zoomInDown {
+  --animate-duration: 2s;
+}
+.animate__animated.animate__flash {
+  --animate-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
 header h1 {
   color: #b7c8d0;
   /* line-height: 40px; */
@@ -267,7 +285,7 @@ header h1 {
   right: 330px;
   text-shadow: 5px 5px 2px #30454a;
   z-index: 999;
-  animation: float 3s ease-in-out infinite;
+  animation: 3s ease-in-out infinite;
 
   font-family: "New Rocker", serif;
   font-weight: 400;
@@ -326,6 +344,8 @@ header h1 {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  position: relative;
+  float: right;
 }
 
 /* contact */
