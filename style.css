@@ -269,7 +269,6 @@ header h1 {
   left: 330px;
   text-shadow: 5px 5px 2px #30454a;
   z-index: 1000;
-  animation: float 3s ease-in-out infinite;
 
   font-family: "New Rocker", serif;
   font-weight: 400;
@@ -285,7 +284,6 @@ header h1 {
   right: 330px;
   text-shadow: 5px 5px 2px #30454a;
   z-index: 999;
-  animation: 3s ease-in-out infinite;
 
   font-family: "New Rocker", serif;
   font-weight: 400;
