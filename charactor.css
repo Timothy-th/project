@@ -61,9 +61,17 @@ body {
 }
 .cardh {
   color: #b30d3c;
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 .cards {
   color: #b7c8d0;
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 /* .c-img {

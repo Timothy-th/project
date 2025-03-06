@@ -18,7 +18,10 @@ body {
   height: 500px;
   border-radius: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
-
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
   background-position: center;
   overflow: hidden;
   margin-left: auto;
@@ -75,7 +78,10 @@ option {
   transition: border 0.3s ease;
   border-radius: 20px;
 }
+
 p {
   color: #d9e6ed;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
