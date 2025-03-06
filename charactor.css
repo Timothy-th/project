@@ -9,6 +9,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#nav {
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
 
 .car-h5 {
   color: #b30d3c;

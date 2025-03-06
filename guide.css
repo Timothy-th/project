@@ -21,6 +21,13 @@ body {
   color: #b7c8d0;
 }
 
+#nav {
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
 .s-img {
   background-image: url(image/gameplay.jpg);
   background-repeat: no-repeat;
