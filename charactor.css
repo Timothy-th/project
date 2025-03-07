@@ -9,6 +9,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.dd:hover {
+  background-color: rgba(54, 69, 108, 0.7) !important;
+  --bs-dropdown-link-hover-bg: rgba(148, 45, 182, 0.5) !important ;
+}
+.dd {
+  background-color: rgba(13, 30, 74, 0.7) !important;
+}
 #nav {
   font-family: "Texturina", serif;
   font-optical-sizing: auto;

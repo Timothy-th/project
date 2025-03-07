@@ -87,8 +87,15 @@ option {
 }
 
 p {
-  color: #d9e6ed;
+  color: #cdb1aa;
+  text-shadow: 2px 2px 2px #7e4334;
+
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: bolder;
+  font-size: 20px;
 }
